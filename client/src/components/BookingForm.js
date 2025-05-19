@@ -58,7 +58,6 @@ const BookingForm = () => {
       <input
         name="soCCCD"
         placeholder="Số CCCD"
-        type="password"
         value={form.soCCCD}
         onChange={handleChange}
       />
@@ -71,7 +70,7 @@ const BookingForm = () => {
         onChange={handleChange}
       />
       <select name="loaiPhong" value={form.loaiPhong} onChange={handleChange}>
-        <option value="Thường gia">Thương gia</option>
+        <option value="Thường gia">Thường gia</option>
         <option value="Cao cấp">Cao cấp</option>
         <option value="VIP">VIP</option>
       </select>
